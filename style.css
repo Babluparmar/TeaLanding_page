@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 30px;
+}
+
+nav img{
+    height: 50px;
+    width: 50px;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: monospace;
+    position: absolute;
+    top: 38%;
+    left: 23%;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 52%;
+    padding: 31px;
+}
+
+.left{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(244, 243, 230);
+}
+
+.right{
+    height: 100%;
+    width: 60%;   
+}
+
+ .rtop{
+    height: 50%;
+    width: 100%;
+     display: flex;
+}
+
+.rtopleft{
+    height: 100%;
+    width: 50%;
+    background-image: url("indiachai.jpg");
+    background-size: cover;
+    object-position: center;
+}
+.rtopright{
+    height: 100%;
+    width: 50%;
+    background-image: url("cchai.jpg");
+    background-size: cover;
+    object-position: center;
+}
+
+.rbown{
+    height: 50%;
+    width: 100%;
+    background-image: url("yellowtea.jpg");
+    background-size: cover;
+    object-position: center;
+} 
+
